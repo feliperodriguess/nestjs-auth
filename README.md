@@ -35,7 +35,7 @@ model User {
 }
 ```
 
-## `.env` file:
+## `.env` file
 
 ```bash
 # Configuration
@@ -118,7 +118,7 @@ export class PrismaService extends PrismaClient implements OnModuleInit {
 - `passport-jwt`
 - `passport-local`
 
-Command to install all of them:
+Installing all by one command:
 
 ```bash
 npm i @nestjs/passport @nestjs/jwt bcrypt class-validator class-transformer passport passport-jwt passport-local
@@ -247,7 +247,7 @@ import { UserService } from './user.service';
 export class UserModule {}
 ```
 
-### Autentication (`/auth` dir)
+### Authentication (`/auth` dir)
 
 ```bash
 nest g module auth
@@ -692,6 +692,6 @@ export class LoginValidationMiddleware implements NestMiddleware {
 
 ```json
 {
-  "access_token": "JWT Token has been generated"
+  "access_token": "Generated JWT"
 }
 ```
