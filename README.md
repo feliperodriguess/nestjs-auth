@@ -47,6 +47,7 @@ JWT_SECRET=""
 DATABASE_URL=""
 ```
 
+
 ### `.env` file filled up
 
 ```bash
@@ -72,7 +73,7 @@ nest g module prisma
 nest g service prisma
 ```
 
-#### Files content
+#### Files Content
 
 ##### `src/prima/prisma.module.ts`
 
