@@ -73,7 +73,7 @@ nest g module prisma
 nest g service prisma
 ```
 
-#### Files Content
+#### Files Content:
 
 ##### `src/prima/prisma.module.ts`
 
